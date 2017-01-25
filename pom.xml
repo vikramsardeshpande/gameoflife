@@ -460,13 +460,6 @@
                             <!-- CPD options -->
                             <minimumTokens>20</minimumTokens>
                             <ignoreIdentifiers>true</ignoreIdentifiers>
-                             <!-- added by Vikram -->
-			<exclusions>
-			    <exclusion>
-			            <groupId>org.slf4j</groupId>
-			                    <artifactId>slf4j-log4j12</artifactId>
-			                        </exclusion>
-			                        </exclusions> 
                         </configuration>
                     </plugin>
                     <plugin>
